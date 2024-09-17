@@ -9,7 +9,7 @@ class FontGroup
             $this->groups = json_decode(file_get_contents(__DIR__ . '/font_groups.json'), true);
         }
     }
-
+    //create group
     public function createGroup($fontG, $fonts)
     {
 
